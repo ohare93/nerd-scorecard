@@ -198,8 +198,8 @@ function renderCategories() {
         `;
         
         const questionsContainer = categoryElement.querySelector('.questions');
-        
-        category.questions.forEach(question => {
+
+        [...category.questions].sort((a, b) => a.points - b.points).forEach(question => {
             const questionElement = document.createElement('label');
             questionElement.className = 'question';
             questionElement.setAttribute('data-question-id', question.id);
@@ -257,7 +257,7 @@ function shareScore() {
     const maxScore = getMaxScore();
     const tier = getCurrentTier(currentScore);
 
-    const shareText = `Scored ${currentScore}/${maxScore} and earned ${tier.title} status. Find out how nerdy you really are: ${window.location.href}`;
+    const shareText = `Scored ${currentScore}/${maxScore} and earned "${tier.title}" status. Find out how nerdy you really are: ${window.location.href}`;
     
     // Try to use the Web Share API if available
     if (navigator.share) {
