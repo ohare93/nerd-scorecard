@@ -1,0 +1,347 @@
+categories:
+  - name: "Getting Started"
+    description: "Baby steps into the deep end"
+    questions:
+      - id: linux-daily
+        text: "Run Linux as your daily driver (not dual boot, not WSL)"
+        points: 5
+      - id: built-pc
+        text: "Built your own PC from components"
+        points: 5
+      - id: own-domain
+        text: "Own a domain (or multiple)"
+        points: 5
+      - id: mechanical-keyboard
+        text: "Own a mechanical keyboard"
+        points: 5
+      - id: caps-lock-remap
+        text: "Have remapped Caps Lock to something useful (Ctrl/Esc/Super)"
+        points: 5
+      - id: unique-passwords
+        text: "Have a different password for each site/service"
+        points: 5
+      - id: fast-typing
+        text: "Touch-type at 80+ WPM"
+        points: 5
+      - id: the-tech-guy
+        text: "Are known as \"the nerdy/tech guy\" at work"
+        points: 5
+
+  - name: "Developer Fundamentals"
+    description: "Standard power user toolkit"
+    questions:
+      - id: git-cli-only
+        text: "Git CLI only - never touch a GUI git client"
+        points: 10
+      - id: ssh-regular
+        text: "SSH into machines regularly (no GUI remote desktop)"
+        points: 10
+      - id: shell-scripts
+        text: "Write shell scripts to automate repetitive tasks (10+ custom scripts)"
+        points: 10
+      - id: dotfiles-repo
+        text: "Have a /dotfiles repository with version control"
+        points: 10
+      - id: custom-prompt
+        text: "Have a custom shell prompt (starship, powerlevel10k, handrolled)"
+        points: 10
+      - id: password-manager-cli
+        text: "Use a password manager with CLI access (pass, Bitwarden CLI)"
+        points: 10
+      - id: ssh-config
+        text: "Understand and maintain a custom .ssh/config file"
+        points: 10
+      - id: pipe-master
+        text: "Regularly pipe commands together - it's second nature"
+        points: 10
+      - id: oss-contributor
+        text: "Contribute to open source projects regularly"
+        points: 10
+
+  - name: "Terminal Mastery"
+    description: "Living in the command line"
+    questions:
+      - id: vim-primary
+        text: "Use vim/neovim as your primary editor"
+        points: 15
+      - id: multiplexer
+        text: "Use tmux/zellij/screen for session management"
+        points: 15
+      - id: terminal-file-manager
+        text: "Terminal file manager (ranger, lf, nnn) is your primary file browser"
+        points: 15
+      - id: fuzzy-finder
+        text: "Use a fuzzy finder (fzf, skim) integrated into your workflow"
+        points: 15
+      - id: text-processing
+        text: "Use sed/awk/grep in daily workflows without googling"
+        points: 15
+      - id: vim-everywhere
+        text: "Use vim keybindings outside of vim (browser, file manager, everywhere)"
+        points: 15
+      - id: terminal-only
+        text: "Terminal-only workflow - no GUI apps during work"
+        points: 20
+      - id: vim-extensive
+        text: "Have written custom vim plugins or extensive configs (500+ lines)"
+        points: 20
+      - id: emacs-user
+        text: "Use Emacs with extensive configuration"
+        points: 20
+
+  - name: "Keyboard Optimization"
+    description: "The path to ultimate typing efficiency"
+    questions:
+      - id: keyboard-launcher
+        text: "Use a keyboard-driven launcher (rofi, dmenu, albert)"
+        points: 10
+      - id: layout-research
+        text: "Agonized over / researched which alternate layout to choose/learn"
+        points: 15
+      - id: alternate-layout
+        text: "Use an alternate keyboard layout (Dvorak, Colemak, Workman, etc.)"
+        points: 20
+      - id: custom-keybindings
+        text: "Have custom keybindings for everything (sxhkd, QMK firmware, etc.)"
+        points: 20
+      - id: split-keyboard
+        text: "Use a split keyboard or ergonomic layout (Ergodox, Moonlander, Corne, etc.)"
+        points: 20
+      - id: tent-keyboard
+        text: "Tent your keyboard for ergonomic typing"
+        points: 20
+      - id: built-keyboard
+        text: "Built your own mechanical keyboard from scratch"
+        points: 25
+      - id: keyboard-cost
+        text: "Spent more on your keyboard than your monitor"
+        points: 25
+      - id: keyboard-from-scratch
+        text: "Built a keyboard from scratch (PCB, firmware, case, the works)"
+        points: 30
+
+  - name: "Self-Hosting & Homelab"
+    description: "Your personal cloud empire"
+    questions:
+      - id: homelab
+        text: "Own a homelab/home server running 24/7"
+        points: 10
+      - id: containers
+        text: "Use Docker/Podman for containerization"
+        points: 10
+      - id: selfhost-three
+        text: "Self-host at least 3 services (Nextcloud, Gitea, Jellyfin, etc.)"
+        points: 15
+      - id: dns-server
+        text: "Run your own DNS (Pi-hole, AdGuard Home, unbound)"
+        points: 15
+      - id: raid
+        text: "Run some form of RAID (hardware or software)"
+        points: 15
+      - id: personal-vpn
+        text: "Have a personal VPN (Wireguard, Tailscale)"
+        points: 15
+      - id: git-server
+        text: "Run your own git server (Gitea, Forgejo, cgit)"
+        points: 15
+      - id: automated-backups
+        text: "Have automated backups with testing/verification"
+        points: 20
+      - id: monitoring
+        text: "Monitor your infrastructure (Prometheus, Grafana, Netdata)"
+        points: 20
+      - id: infrastructure-as-code
+        text: "Use infrastructure-as-code (Terraform, Pulumi, NixOS configs)"
+        points: 20
+      - id: selfhost-users
+        text: "Self-host something that has actual users (not just your family)"
+        points: 25
+      - id: certificate-authority
+        text: "Run your own Certificate Authority for internal services"
+        points: 25
+      - id: selfhost-email
+        text: "Self-host your email (you brave, foolish soul)"
+        points: 30
+      - id: own-tld
+        text: "Have your own TLD or run your own authoritative nameserver"
+        points: 30
+
+  - name: "System Customization"
+    description: "Making Linux truly yours"
+    questions:
+      - id: diy-distro
+        text: "Run Arch, NixOS, Gentoo, or another \"DIY\" distribution"
+        points: 15
+      - id: tiling-wm
+        text: "Use a tiling window manager (i3, bspwm, hyprland, etc.)"
+        points: 15
+      - id: custom-bootloader
+        text: "Have customized your bootloader (GRUB theme, systemd-boot entries)"
+        points: 15
+      - id: config-as-code
+        text: "Manage system config as code (NixOS, Ansible, Guix, etc.)"
+        points: 20
+      - id: wayland-only
+        text: "Use Wayland exclusively (no Xorg fallback installed)"
+        points: 20
+      - id: tty-boot
+        text: "Boot directly to TTY and startx manually"
+        points: 20
+      - id: composable-wm
+        text: "Use a composable window manager (xmonad, awesomewm with Lua config)"
+        points: 25
+      - id: reproducible-setup
+        text: "Document your entire setup so you can reproduce it from scratch"
+        points: 25
+      - id: custom-kernel
+        text: "Built a custom kernel with manual configuration"
+        points: 30
+      - id: manual-kernel
+        text: "Use a custom-built kernel with manual config (no distro kernel)"
+        points: 35
+      - id: wrote-wm
+        text: "Written your own window manager or desktop environment"
+        points: 40
+
+  - name: "Advanced Development"
+    description: "Deep technical mastery"
+    questions:
+      - id: task-automation
+        text: "Use make or just for project tasks"
+        points: 10
+      - id: custom-cli-tool
+        text: "Have written a custom CLI tool in Rust, Go, or similar"
+        points: 15
+      - id: compile-from-source
+        text: "Compile software from source regularly (AUR, Gentoo, or by choice)"
+        points: 15
+      - id: cli-debugging
+        text: "Debug with gdb, strace, ltrace regularly"
+        points: 20
+      - id: nix-shell
+        text: "Use nix-shell for per-project development environments"
+        points: 20
+      - id: bug-reports
+        text: "Have filed bug reports upstream that got merged"
+        points: 20
+      - id: static-site
+        text: "Use a static site generator for your blog (Hugo, Jekyll, handrolled)"
+        points: 15
+      - id: read-rfcs
+        text: "Read RFCs for fun or work"
+        points: 20
+      - id: nixos-contributor
+        text: "Contribute to NixOS packages or maintain a flake"
+        points: 25
+      - id: popular-dotfiles
+        text: "Maintain a public dotfiles repo with significant stars/forks"
+        points: 25
+      - id: written-language
+        text: "Have written a compiler, interpreter, or programming language"
+        points: 30
+      - id: kernel-contributor
+        text: "Have contributed to the Linux kernel or core utilities"
+        points: 35
+
+  - name: "Hardware Hacking"
+    description: "Physical world meets digital"
+    questions:
+      - id: jailbroken-device
+        text: "Jailbroken/rooted a device (phone, Roomba, game console, etc.)"
+        points: 15
+      - id: linux-printer
+        text: "Configured your printer to work on Linux (and succeeded)"
+        points: 20
+      - id: thermal-paste-opinions
+        text: "Have strong opinions about thermal paste application"
+        points: 15
+      - id: sbc-cluster
+        text: "Run a Raspberry Pi cluster or similar SBC setup"
+        points: 20
+      - id: 3d-printer
+        text: "Own and maintain a 3D printer"
+        points: 20
+      - id: home-automation
+        text: "Have automated your home with Home Assistant or similar"
+        points: 25
+
+  - name: "Security & Privacy Paranoia"
+    description: "Trust no one, encrypt everything"
+    questions:
+      - id: physical-2fa
+        text: "Use a physical two-factor auth device (YubiKey, etc.)"
+        points: 15
+      - id: encrypted-sync
+        text: "Use rsync, rclone, or similar for encrypted file management"
+        points: 15
+      - id: gpg-encryption
+        text: "Use GPG for email signing/encryption"
+        points: 20
+
+  - name: "Productivity & Knowledge Management"
+    description: "Optimizing your brain's API"
+    questions:
+      - id: personal-wiki
+        text: "Have a personal wiki or knowledge base (Obsidian, org-mode, TiddlyWiki)"
+        points: 15
+      - id: ledger-cli
+        text: "Use ledger-cli or similar for personal accounting"
+        points: 20
+      - id: zettelkasten
+        text: "Have a digital Zettelkasten with 1000+ notes"
+        points: 30
+
+  - name: "The Final Boss Level"
+    description: "Absolute madlad territory"
+    questions:
+      - id: init-system-opinions
+        text: "Have opinions about init systems (and will share them unprompted)"
+        points: 25
+      - id: gentoo-use-flags
+        text: "Run Gentoo with custom USE flags and compile-time optimizations"
+        points: 35
+      - id: man-pages-bedtime
+        text: "Read man pages as bedtime reading"
+        points: 25
+      - id: negative-roi-automation
+        text: "Have automated something in your life that takes longer to maintain than doing it manually"
+        points: 30
+      - id: more-devices-than-rooms
+        text: "Have more computing devices than rooms in your house"
+        points: 25
+      - id: fediverse-instance
+        text: "Run your own Mastodon/Fediverse instance"
+        points: 30
+      - id: gopher-gemini
+        text: "Run a Gopher or Gemini site (true protocol hipster)"
+        points: 35
+
+scoring_tiers:
+  - min: 0
+    max: 50
+    title: "Curious Normie"
+    description: "Welcome to the rabbit hole"
+  - min: 51
+    max: 150
+    title: "Enthusiast"
+    description: "You've caught the optimization bug"
+  - min: 151
+    max: 300
+    title: "Power User"
+    description: "Your colleagues ask you for help"
+  - min: 301
+    max: 500
+    title: "Wizard"
+    description: "You ARE the local tech support"
+  - min: 501
+    max: 750
+    title: "Arch Mage"
+    description: "People DM you their configs"
+  - min: 751
+    max: 1000
+    title: "Ascended"
+    description: "You've merged with the machine"
+  - min: 1001
+    max: 9999
+    title: "Grass? What's grass?"
+    description: "Please go outside"

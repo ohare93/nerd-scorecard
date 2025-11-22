@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer Nerd Scorecard</title>
+    <meta name="description" content="How nerdy is your programming setup? Take the ultimate developer nerdiness test.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Header - appears when main score scrolls out of view -->
+    <div class="scroll-header" id="scroll-header">
+        <span class="header-score"><span id="header-score">0</span>/<span id="header-max">0</span></span>
+        <span class="header-tier" id="header-tier">Loading...</span>
+        <div class="header-progress">
+            <div class="header-progress-fill" id="header-progress-fill"></div>
+        </div>
+        <button id="header-share-btn" class="btn btn-primary btn-small">Share</button>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>🤓 Programmer Nerd Scorecard</h1>
+            <p class="subtitle">How deep does your nerdiness go?</p>
+        </header>
+
+        <div class="score-display">
+            <div class="score-number">
+                <span id="current-score">0</span>
+                <span class="max-score">/ <span id="max-score">0</span></span>
+            </div>
+            <div class="score-tier">
+                <h2 id="tier-title">Loading...</h2>
+                <p id="tier-description"></p>
+            </div>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="reset-btn" class="btn btn-secondary">Reset All</button>
+            <button id="share-btn" class="btn btn-primary">Share Score</button>
+        </div>
+
+        <div id="categories-container" class="categories">
+            <!-- Categories will be loaded here by JavaScript -->
+        </div>
+
+        <footer>
+            <p>
+                Built with ❤️ by the terminal-dwelling community. 
+                <a href="https://github.com/yourusername/nerd-scorecard" target="_blank">Contribute on GitHub</a>
+            </p>
+            <p class="credits">
+                Questions stored in <code>nerd-scorecard.yaml</code> - PRs welcome!
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
