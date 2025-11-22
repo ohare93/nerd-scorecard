@@ -4,7 +4,7 @@ How nerdy is your programming setup? Take the ultimate test to measure your dedi
 
 ## 🚀 Live Demo
 
-[Visit the live scorecard](#) *(Add your GitHub Pages URL here)*
+[Visit the live scorecard](https://ohare93.github.io/nerd-scorecard/)
 
 ## ✨ Features
 
@@ -86,6 +86,7 @@ We welcome contributions! Here's how to add questions or improve the scorecard:
 ```
 
 **Guidelines for questions:**
+
 - Use kebab-case for IDs (e.g., `built-custom-kernel`)
 - Points should reflect difficulty/rarity (5-40 points typical range)
 - Questions should be objective (yes/no) rather than subjective
@@ -126,15 +127,16 @@ Edit `style.css` to change the theme. The site uses CSS variables for easy color
 
 ```css
 :root {
-    --bg-primary: #0d1117;
-    --accent: #58a6ff;
-    /* ... modify these */
+  --bg-primary: #0d1117;
+  --accent: #58a6ff;
+  /* ... modify these */
 }
 ```
 
 ### Behavior
 
 Edit `app.js` to modify functionality. Key functions:
+
 - `loadConfig()` - Loads YAML configuration
 - `updateScore()` - Updates the score display
 - `shareScore()` - Generates shareable text
@@ -161,6 +163,7 @@ nerd-scorecard/
 7. **Open** a Pull Request with a description of what you added
 
 ### PR Tips
+
 - One PR per category of changes (e.g., "Add keyboard questions" vs "Add 50 random questions")
 - Explain your reasoning for point values
 - Test that the YAML is valid (no syntax errors)
@@ -169,6 +172,7 @@ nerd-scorecard/
 ## 🐛 Bug Reports
 
 Found a bug? [Open an issue](https://github.com/yourusername/nerd-scorecard/issues) with:
+
 - Browser and version
 - Steps to reproduce
 - Expected vs actual behavior
@@ -180,17 +184,19 @@ MIT License - feel free to fork, modify, and share!
 
 ## 🙏 Credits
 
-Created by the terminal-dwelling, rice-posting, dotfile-obsessing community. 
+Created by the terminal-dwelling, rice-posting, dotfile-obsessing community.
 
 Inspired by countless hours spent in:
+
 - r/unixporn
-- r/MechanicalKeyboards  
+- r/MechanicalKeyboards
 - The Arch Wiki
 - Late-night config tweaking sessions
 
 ## 🌟 Show Your Support
 
 If you enjoy this project:
+
 - ⭐ Star this repository
 - 🍴 Fork it and make your own version
 - 📢 Share your score on social media

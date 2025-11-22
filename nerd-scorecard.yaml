@@ -1,31 +1,32 @@
+
 categories:
   - name: "Getting Started"
     description: "Baby steps into the deep end"
     questions:
-      - id: linux-daily
-        text: "Run Linux as your daily driver (not dual boot, not WSL)"
-        points: 5
-      - id: built-pc
-        text: "Built your own PC from components"
-        points: 5
       - id: own-domain
         text: "Own a domain (or multiple)"
-        points: 5
+        points: 15
       - id: mechanical-keyboard
         text: "Own a mechanical keyboard"
-        points: 5
-      - id: caps-lock-remap
-        text: "Have remapped Caps Lock to something useful (Ctrl/Esc/Super)"
-        points: 5
+        points: 15
       - id: unique-passwords
         text: "Have a different password for each site/service"
-        points: 5
+        points: 15
       - id: fast-typing
         text: "Touch-type at 80+ WPM"
-        points: 5
+        points: 15
       - id: the-tech-guy
         text: "Are known as \"the nerdy/tech guy\" at work"
-        points: 5
+        points: 15
+      - id: linux-daily
+        text: "Run Linux as your daily driver (not dual boot, not WSL)"
+        points: 20
+      - id: built-pc
+        text: "Built your own PC from components"
+        points: 20
+      - id: caps-lock-remap
+        text: "Have remapped Caps Lock to something useful (Ctrl/Esc/Super)"
+        points: 20
 
   - name: "Developer Fundamentals"
     description: "Standard power user toolkit"
@@ -86,7 +87,7 @@ categories:
         text: "Have written custom vim plugins or extensive configs (500+ lines)"
         points: 20
       - id: emacs-user
-        text: "Use Emacs with extensive configuration"
+        text: "Use Emacs with extensive configuration (500+ lines or org-mode power user)"
         points: 20
 
   - name: "Keyboard Optimization"
@@ -110,9 +111,6 @@ categories:
       - id: tent-keyboard
         text: "Tent your keyboard for ergonomic typing"
         points: 20
-      - id: built-keyboard
-        text: "Built your own mechanical keyboard from scratch"
-        points: 25
       - id: keyboard-cost
         text: "Spent more on your keyboard than your monitor"
         points: 25
@@ -194,10 +192,7 @@ categories:
         text: "Document your entire setup so you can reproduce it from scratch"
         points: 25
       - id: custom-kernel
-        text: "Built a custom kernel with manual configuration"
-        points: 30
-      - id: manual-kernel
-        text: "Use a custom-built kernel with manual config (no distro kernel)"
+        text: "Built and run a custom kernel with manual configuration"
         points: 35
       - id: wrote-wm
         text: "Written your own window manager or desktop environment"
@@ -218,11 +213,11 @@ categories:
       - id: cli-debugging
         text: "Debug with gdb, strace, ltrace regularly"
         points: 20
-      - id: nix-shell
-        text: "Use nix-shell for per-project development environments"
+      - id: nix-dev-env
+        text: "Use nix develop, devbox, or flakes for per-project development environments"
         points: 20
       - id: bug-reports
-        text: "Have filed bug reports upstream that got merged"
+        text: "Have filed bug reports upstream that were addressed"
         points: 20
       - id: static-site
         text: "Use a static site generator for your blog (Hugo, Jekyll, handrolled)"
@@ -271,12 +266,61 @@ categories:
       - id: physical-2fa
         text: "Use a physical two-factor auth device (YubiKey, etc.)"
         points: 15
-      - id: encrypted-sync
-        text: "Use rsync, rclone, or similar for encrypted file management"
+      - id: encrypted-backups
+        text: "Use encrypted backup tools (restic, borg, rclone crypt)"
         points: 15
       - id: gpg-encryption
         text: "Use GPG for email signing/encryption"
         points: 20
+
+  - name: "AI & LLM Workflows"
+    description: "Teaching the machines to do your bidding"
+    questions:
+      - id: ai-coding-assistant
+        text: "Use AI coding assistants daily (Copilot, Claude, ChatGPT)"
+        points: 10
+      - id: ai-commit-messages
+        text: "Use AI to generate commit messages (and actually review them)"
+        points: 10
+      - id: prompt-engineering
+        text: "Practice deliberate prompt engineering (system prompts, few-shot examples)"
+        points: 15
+      - id: terminal-ai-coding
+        text: "Use agentic AI coding in the terminal (Claude Code, Aider, Goose)"
+        points: 15
+      - id: ai-code-review
+        text: "Have AI review your code before committing"
+        points: 15
+      - id: system-prompts-versioned
+        text: "Version control your custom system prompts or AI configs"
+        points: 15
+      - id: context-window-opinions
+        text: "Have strong opinions about context window management"
+        points: 15
+      - id: local-llm
+        text: "Run local LLMs (Ollama, llama.cpp, LM Studio)"
+        points: 20
+      - id: mcp-user
+        text: "Use MCP (Model Context Protocol) servers to extend AI capabilities"
+        points: 20
+      - id: ai-oss-contributor
+        text: "Contributed to an open-source AI/LLM project"
+        points: 20
+      - id: rag-setup
+        text: "Built a RAG system for your own documents or codebase"
+        points: 25
+      - id: parallel-agents
+        text: "Orchestrate multiple AI agents working simultaneously"
+        points: 25
+      - id: selfhost-ai
+        text: "Self-host an AI inference server (vLLM, text-generation-webui)"
+        points: 25
+      - id: custom-ai-tool
+        text: "Written a custom AI-powered CLI tool or workflow"
+        points: 25
+      - id: fine-tuned-model
+        text: "Fine-tuned or trained your own model"
+        points: 30
 
   - name: "Productivity & Knowledge Management"
     description: "Optimizing your brain's API"
