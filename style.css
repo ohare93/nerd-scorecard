@@ -56,6 +56,11 @@ header h1 {
     background-clip: text;
 }
 
+header h1 .emoji {
+    -webkit-text-fill-color: initial;
+    background: none;
+}
+
 .subtitle {
     color: var(--text-secondary);
     font-size: 1.2em;

@@ -256,13 +256,8 @@ function shareScore() {
     const currentScore = getCurrentScore();
     const maxScore = getMaxScore();
     const tier = getCurrentTier(currentScore);
-    const percentage = Math.round((currentScore / maxScore) * 100);
-    
-    const shareText = `I scored ${currentScore}/${maxScore} (${percentage}%) on the Programmer Nerd Scorecard!
-    
-My rank: ${tier.title} - ${tier.description}
 
-How nerdy is YOUR setup? Take the test: ${window.location.href}`;
+    const shareText = `Scored ${currentScore}/${maxScore} and earned ${tier.title} status. Find out how nerdy you really are: ${window.location.href}`;
     
     // Try to use the Web Share API if available
     if (navigator.share) {
