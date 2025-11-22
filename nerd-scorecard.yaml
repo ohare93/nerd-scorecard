@@ -341,8 +341,8 @@ categories:
       - id: init-system-opinions
         text: "Have opinions about init systems (and will share them unprompted)"
         points: 25
-      - id: gentoo-use-flags
-        text: "Run Gentoo with custom USE flags and compile-time optimizations"
+      - id: compile-time-waiting
+        text: "Have spent more than 24 cumulative hours waiting for software to compile"
         points: 35
       - id: man-pages-bedtime
         text: "Read man pages as bedtime reading"
@@ -353,11 +353,11 @@ categories:
       - id: more-devices-than-rooms
         text: "Have more computing devices than rooms in your house"
         points: 25
-      - id: fediverse-instance
-        text: "Run your own Mastodon/Fediverse instance"
+      - id: rage-built-replacement
+        text: "Have rage-quit a service and built your own replacement"
         points: 30
-      - id: gopher-gemini
-        text: "Run a Gopher or Gemini site (true protocol hipster)"
+      - id: retro-coding
+        text: "Have written code for a computer older than you are"
         points: 35
 
 scoring_tiers:
